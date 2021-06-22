@@ -26,6 +26,8 @@ describe('Sudoku', () => {
     expect(testSudoku.rowNumCount()).toEqual(true);
   });
   
-  // test("each row does not contain a duplicate")
+  test('each row does not contain a duplicate number', () => {
+    expect(testSudoku.rowDup()).toEqual(true);
+  });
 });
 

@@ -30,4 +30,13 @@ Sudoku.prototype.rowNumCount = function () {
   };
 };
 
-// Sudoku.prototype.
+// Sudoku.prototype.dupNum = function () {
+//   const sudokuGrid = this.buildGrid();
+//   var = []
+  
+// implement forEach loop to build array; check array for dups.
+//     for (let i = 0; i <= 8; i++){
+//       if (sudokuGrid[i].includes(i+1)
+
+//     }
+// }
